@@ -1,6 +1,6 @@
-#Node+Express+JWT Token+Oracle user authentication and multi type user support
+# Node+Express+JWT Token+Oracle user authentication and multi type user support
 
-###Step 1 : Prepare database:
+### Step 1 : Prepare database:
 2 Tables are required for this demo:
 
 ```
@@ -20,7 +20,7 @@ CREATE TABLE items (
 ```
 **In the users table, type=1 refers to an admin user and non-admin user otherwise**
 
-###Step 2 : Codebase Setup:
+### Step 2 : Codebase Setup:
 After cloning this repo, run
 ```
 npm install
@@ -39,7 +39,7 @@ node dev
 
 The system will be up and running at port 8080 if not declared otherwise.
 
-###What is demonstrated in the codebase ?
+### What is demonstrated in the codebase ?
 There are 5 routes for authentication, those are:
 1. **Login** : Any person can log in.
 2. **Register** : Any person can register.
