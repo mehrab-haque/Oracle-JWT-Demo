@@ -1,4 +1,5 @@
 const oracledb = require('oracledb');
+oracledb.autoCommit = true;
 oracledb.outFormat = oracledb.OBJECT;
 class Repository {
     constructor() {
